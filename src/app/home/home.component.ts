@@ -54,5 +54,6 @@ export class HomeComponent implements OnInit {
   removeItem(i){
     this.inventoryItems.splice(i, 1);
     this._data.changeItem(this.inventoryItems);
+    //test
   }
 }
